@@ -1,0 +1,18 @@
+
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.7321038,15.4540174 L0.528915286,4.92158761 C-0.176305095,4.19361084 -0.176305095,3.01645692 0.528915286,2.29622459 L2.22444514,0.545982575 C2.92966552,-0.181994192 4.07002188,-0.181994192 4.76773992,0.545982575 L12,8.01161665 L19.2322601,0.545982575 C19.9374805,-0.181994192 21.0778368,-0.181994192 21.7755549,0.545982575 L23.4710847,2.29622459 C24.1763051,3.02420136 24.1763051,4.20135528 23.4710847,4.92158761 L13.2678962,15.4540174 C12.5776805,16.1819942 11.4373242,16.1819942 10.7321038,15.4540174 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-138.000000, -459.000000)">
+            <g id="AngleDown" transform="translate(138.000000, 459.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#E0E0E0" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

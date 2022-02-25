@@ -1,0 +1,259 @@
+{
+  "previewImage": { "value": "assets/jqji9k6mregkfrljnus721hxet1avr95.jpg" },
+  "highResolution": false,
+  "migrated": true,
+  "original": {
+    "name": "Default",
+    "size": {
+      "high": { "width": 1920, "height": 1280, "resolution": 300 },
+      "preview": { "width": 750, "height": 500 }
+    }
+  },
+  "supportedSizes": [],
+  "text": [],
+  "graphic": [
+    {
+      "id": 101,
+      "name": "CD Color",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 238,
+      "y": 320,
+      "width": 636,
+      "height": 637,
+      "visible": true,
+      "styles": {
+        "blendOptions": { "mode": "passThrough" },
+        "layerEffects": {
+          "scale": 416.666666666667,
+          "solidFill": {
+            "enabled": true,
+            "present": true,
+            "showInDialog": true,
+            "mode": "normal",
+            "color": { "red": 255, "green": 255, "blue": 255 },
+            "opacity": 100
+          }
+        }
+      },
+      "color": "#FFFFFF",
+      "image": null,
+      "contents": null,
+      "font": null,
+      "smartFilters": null,
+      "allowColorpicker": true,
+      "allowSearch": false,
+      "allowForegroundSearch": false,
+      "allowBackgroundSearch": false,
+      "preconfiguredSearch": "",
+      "groupTags": [],
+      "displayName": "CD Color",
+      "hasLayers": false,
+      "excludable": true,
+      "selectedLayer": null,
+      "outputReceiver": true
+    },
+    {
+      "id": 105,
+      "name": "Cover Color",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 816,
+      "y": 289,
+      "width": 801,
+      "height": 705,
+      "visible": true,
+      "styles": {
+        "blendOptions": { "mode": "passThrough" },
+        "layerEffects": {
+          "scale": 416.666666666667,
+          "solidFill": {
+            "enabled": true,
+            "present": true,
+            "showInDialog": true,
+            "mode": "normal",
+            "color": {
+              "red": 0,
+              "green": 97.0024108886719,
+              "blue": 155.997619628906
+            },
+            "opacity": 100
+          }
+        }
+      },
+      "color": "#00619B",
+      "image": null,
+      "contents": null,
+      "font": null,
+      "smartFilters": null,
+      "allowColorpicker": true,
+      "allowSearch": false,
+      "allowForegroundSearch": false,
+      "allowBackgroundSearch": false,
+      "preconfiguredSearch": "",
+      "groupTags": [],
+      "displayName": "Cover Color",
+      "hasLayers": false,
+      "excludable": true,
+      "selectedLayer": null,
+      "outputReceiver": true
+    }
+  ],
+  "background": [
+    {
+      "id": 92,
+      "name": "Background",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "visible": true,
+      "styles": { "blendOptions": { "mode": "passThrough" } },
+      "color": null,
+      "image": null,
+      "contents": null,
+      "font": null,
+      "smartFilters": null,
+      "allowSearch": false,
+      "allowForegroundSearch": false,
+      "allowBackgroundSearch": false,
+      "preconfiguredSearch": "",
+      "groupTags": [],
+      "displayName": "Background",
+      "hasLayers": false,
+      "excludable": true,
+      "selectedLayer": null
+    }
+  ],
+  "backgroundColor": {
+    "id": 108,
+    "name": "Color",
+    "type": "SolidColor",
+    "opacity": 100,
+    "fill": 100,
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1280,
+    "visible": true,
+    "styles": { "blendOptions": {} },
+    "color": "#D3FAFF",
+    "image": null,
+    "contents": null,
+    "font": null,
+    "layers": [],
+    "smartFilters": null,
+    "allowColorpicker": true
+  },
+  "customGraphic": [
+    {
+      "id": 94,
+      "name": "nice.custom_graphic.Upload_CD_Design",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 348,
+      "y": 444,
+      "width": 1000,
+      "height": 1000,
+      "visible": true,
+      "styles": { "blendOptions": { "mode": "passThrough" } },
+      "color": null,
+      "image": null,
+      "contents": null,
+      "font": null,
+      "layers": [
+        {
+          "id": 77,
+          "name": "placeit.replace.userimage1",
+          "type": "Graphic",
+          "opacity": 100,
+          "fill": 100,
+          "x": 348,
+          "y": 444,
+          "width": 421,
+          "height": 385,
+          "visible": true,
+          "styles": { "blendOptions": {} },
+          "color": null,
+          "image": "assets/r0zlbxlcrtsw51tto3a064dsrnmmj66r.png",
+          "contents": null,
+          "font": null,
+          "layers": [],
+          "smartFilters": null
+        }
+      ],
+      "smartFilters": null,
+      "mask": {
+        "id": "c3ngw6yc1o8u0tjy6r9p3ub4101zd42z",
+        "name": "nice.custom_graphic.Upload_CD_Design",
+        "type": "Mask",
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1280,
+        "image": "assets/c3ngw6yc1o8u0tjy6r9p3ub4101zd42z.png"
+      },
+      "viewport": null,
+      "userAgent": null,
+      "outputReceiver": true
+    },
+    {
+      "id": 103,
+      "name": "nice.custom_graphic.Upload_Cover_Design",
+      "type": "Folder",
+      "opacity": 100,
+      "x": 995,
+      "y": 422,
+      "width": 1600,
+      "height": 1600,
+      "visible": true,
+      "styles": { "blendOptions": { "mode": "passThrough" } },
+      "color": null,
+      "image": null,
+      "contents": null,
+      "font": null,
+      "layers": [
+        {
+          "id": 64,
+          "name": "placeit.replace.userimage2",
+          "type": "Graphic",
+          "opacity": 100,
+          "fill": 100,
+          "x": 995,
+          "y": 422,
+          "width": 495,
+          "height": 444,
+          "visible": true,
+          "styles": { "blendOptions": {} },
+          "color": null,
+          "image": "assets/krohff7bt2untfvf92008igdjxtu9zcd.png",
+          "contents": null,
+          "font": null,
+          "layers": [],
+          "smartFilters": null
+        }
+      ],
+      "smartFilters": null,
+      "viewport": null,
+      "userAgent": null,
+      "outputReceiver": true
+    }
+  ],
+  "uploadRequired": true,
+  "effect": [
+    {
+      "visible": true,
+      "name": "Effects",
+      "excludable": true,
+      "image": null,
+      "layers": []
+    }
+  ],
+  "id": "6cef8dbaeec8d18bdff5e9d41b1695b8",
+  "version": "4.0",
+  "forceReload": false,
+  "useAssetRules": true,
+  "category": "b568f8b7d4f67a5ec84d6b01061c3ca5"
+}

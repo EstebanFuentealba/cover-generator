@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="67px" viewBox="0 0 47 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-hint</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M29.9361545,19.0123574 C27.8706222,12.7329183 26.2354092,6.28143973 22.7927148,0.518118891 C22.4486001,-0.0840191071 21.3297701,-0.256058535 21.0715786,0.518118891 C18.5757271,6.45347916 15.9938118,12.3028197 14.3585988,18.4962391 C14.1004073,19.5284757 15.3913649,20.3026531 16.1659395,19.5284757 C17.6290249,18.0661405 19.1783147,16.6898251 20.8135277,15.4855491 C20.6412594,28.2164668 21.0717192,43.0118576 5.92448278,46.9687645 C4.30233392,47.3844868 2.63495637,47.6445095 0.959995245,47.7391168 C0.0793317494,47.7391168 -0.734925071,50 1.12002198,50 C1.74071947,49.9590551 2.36701906,49.8951512 2.99803084,49.8075556 C10.6577129,48.775319 17.1125012,45.162491 20.3829272,37.8508153 C23.3092385,31.3133171 23.1369702,23.4855231 22.9648425,16.3458868 C24.6000556,17.808222 26.4072556,19.0985177 28.3006602,20.1307542 C29.1614393,20.6468725 30.2802692,19.9587148 29.9361545,19.0123574 Z M22.2637219,13.2292868 C21.7473388,13.0572474 21.4030835,13.3153066 21.2308151,13.7454051 C21.2308151,13.7454051 21.2308151,13.7454051 21.1448919,13.8314248 C19.7678704,14.2615234 18.5629766,14.9496811 17.4441467,15.7238585 C18.7351043,11.5088926 20.4563812,7.37994629 22.0915942,3.33701973 C24.3292541,7.55198572 25.6202118,12.1110306 27.0832971,16.5840557 C25.5340073,15.29376 24.070922,14.0034643 22.2637219,13.2292868 Z" id="path-1"></path>
+        <filter x="-50.0%" y="-36.0%" width="200.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hint-To-the-User-Copy-4" transform="translate(-709.000000, -236.000000)" fill-rule="nonzero">
+            <g id="arrow-hint" transform="translate(732.000000, 267.000000) rotate(-180.000000) translate(-732.000000, -267.000000) translate(717.000000, 242.000000)">
+                <g id="Shape" transform="translate(15.000000, 25.000000) scale(-1, 1) translate(-15.000000, -25.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
