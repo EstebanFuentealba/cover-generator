@@ -9015,7 +9015,7 @@
               this._cdnBasePath() +
               "/smart_templates/" +
               this.templateId +
-              "/assets/" +
+              "./assets/" +
               this.id +
               ".png");
       },
@@ -9563,7 +9563,7 @@
       },
     },
   }),
-  $.get("/assets/icons/ic-hide.svg"),
+  $.get("./assets/icons/ic-hide.svg"),
   Class("HideElementPopoverWarning").inherits(UI.OnboardingPopover)({
     TIME_TO_HIDE: 8e3,
     prototype: {
@@ -9709,7 +9709,7 @@
   Class(UI, "CategorySuggestion").inherits(Widget)({
     TARGET_URL: "/t-shirt-design-templates",
     elementClass: "category-suggestion",
-    html: '        <div>            <div id="content-wrapper">                <div id="thumbnails-wrapper">                    <img src="/assets/category-suggestions/template1.png" class="template-thumbnail">                    <img src="/assets/category-suggestions/template2.png" class="template-thumbnail">                    <img src="/assets/category-suggestions/template3.png" class="template-thumbnail">                </div>                <div id="bottom-wrapper">                    <div id="text-wrapper">                        <div class="center"> Selling Apparel? </div>                        <div class="center"> Try Our Design Templates, Too! </div>                    </div>                    <div id="button-wrapper" class="center">                        <button> Make a T-Shirt Design </button>                    </div>                </div>            </div>        </div>    ',
+    html: '        <div>            <div id="content-wrapper">                <div id="thumbnails-wrapper">                    <img src="./assets/category-suggestions/template1.png" class="template-thumbnail">                    <img src="./assets/category-suggestions/template2.png" class="template-thumbnail">                    <img src="./assets/category-suggestions/template3.png" class="template-thumbnail">                </div>                <div id="bottom-wrapper">                    <div id="text-wrapper">                        <div class="center"> Selling Apparel? </div>                        <div class="center"> Try Our Design Templates, Too! </div>                    </div>                    <div id="button-wrapper" class="center">                        <button> Make a T-Shirt Design </button>                    </div>                </div>            </div>        </div>    ',
     prototype: {
       init: function (e) {
         Widget.prototype.init.call(this, e),
@@ -13381,11 +13381,11 @@
       },
       setStageCropperLayout: function () {
         var e = this;
-        $("<img/>").attr("src", "/assets/cropper_description_3.svg"),
-          $("<img/>").attr("src", "/assets/cropper_description_2.svg"),
-          $("<img/>").attr("src", "/assets/cropper_description_1.svg"),
+        $("<img/>").attr("src", "./assets/cropper_description_3.svg"),
+          $("<img/>").attr("src", "./assets/cropper_description_2.svg"),
+          $("<img/>").attr("src", "./assets/cropper_description_1.svg"),
           $("<img/>")
-            .attr("src", "/assets/cropper_file_uploader.svg")
+            .attr("src", "./assets/cropper_file_uploader.svg")
             .on("load", function () {
               $(this).remove(), e._setStageCropperLayout();
             });
