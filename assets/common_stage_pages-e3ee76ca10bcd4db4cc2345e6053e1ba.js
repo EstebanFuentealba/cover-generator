@@ -7764,7 +7764,7 @@ var CROP = (function () {
       BubblingSupport
     )({
     content:
-      '<div class="switchStagePriceModal">                <div class= "images">                    <div class="leftImage"><img src="/assets/left-image-premium-modal.png"></div>                    <div class="selectedImage"><span class="crown"></span>                        <img src="">                        <i class="glyphicon glyphicon-music"></i>                    </div>                    <div class="rigthImage"><img src="/assets/right-image-premium-modal.png"></div>                </div>                <div class="paidText">Free templates don\'t include Premium graphics. Use them for <span class="paidTextPrice"></span></div>                <div class="subcriptionText">Free with Unlimited Subscription</div>                <button class="gotItBtn button primary">Got it!</button>                <div class="orDiv">or</div>                <button class="getSubscriptionBtn button primary">Get Unlimited Subscription!</button>            </div>',
+      '<div class="switchStagePriceModal">                <div class= "images">                    <div class="leftImage"><img src="./assets/left-image-premium-modal.png"></div>                    <div class="selectedImage"><span class="crown"></span>                        <img src="">                        <i class="glyphicon glyphicon-music"></i>                    </div>                    <div class="rigthImage"><img src="./assets/right-image-premium-modal.png"></div>                </div>                <div class="paidText">Free templates don\'t include Premium graphics. Use them for <span class="paidTextPrice"></span></div>                <div class="subcriptionText">Free with Unlimited Subscription</div>                <button class="gotItBtn button primary">Got it!</button>                <div class="orDiv">or</div>                <button class="getSubscriptionBtn button primary">Get Unlimited Subscription!</button>            </div>',
     prototype: {
       $gotItBtn: null,
       $paidTextPrice: null,
@@ -18964,7 +18964,7 @@ var CROP = (function () {
       buttonClass: null,
       previewThumb: null,
       hasPlaceholder: !0,
-      placeholderThumbnail: "/assets/placeholder-thumbnail.png",
+      placeholderThumbnail: "./assets/placeholder-thumbnail.png",
       transparentPixel:
         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII",
       $compositeButton: null,
@@ -19260,7 +19260,7 @@ var CROP = (function () {
   Class(UI.SmartTemplate, "AssetPremiumBadge")
     .inherits(Widget)
     .includes(BubblingSupport)({
-    html: '<div class="premium-badge-widget">               <div class="badge-container">                <img class="premium-crown" src="/assets/crown-icon-empty-bg.svg">                <span class="premium-text">Premium</span>              </div>            </div>',
+    html: '<div class="premium-badge-widget">               <div class="badge-container">                <img class="premium-crown" src="./assets/crown-icon-empty-bg.svg">                <span class="premium-text">Premium</span>              </div>            </div>',
     popoverContent:
       '<div class="premium-badge-popover">Premium Graphics are only free for Unlimited Subscribers.</div>',
     prototype: {
@@ -20658,7 +20658,7 @@ var CROP = (function () {
       BubblingSupport,
       AddGraphicDropdownSupport
     )({
-    BLANK_IMG_PATH: "/assets/blank.png",
+    BLANK_IMG_PATH: "./assets/blank.png",
     html: '        <div>            <label class="title"></label>            <div class="compound-button button composite-button" style="display:flex;">                <div class="thumb image-container"><img></div>                <div class="reposition button" style="display:flex;">                    <span class="p-icon p-sm crop-gray"></span>                    <div>Resize</div>                </div>                <div class="edit button" style="display:flex;">                    <span class="p-icon p-sm gallery-gray"></span>                        <span class="text"></span>                    </div>                <div class="remove button" style="display:flex;">                    <span class="p-icon p-sm remove-gray"></span>                    <div>Remove</div>                </div>            </div>        </div>    ',
     elementClass: "compound-button-container",
     TEXT_REPLACE: "Edit",
@@ -24267,7 +24267,7 @@ var CROP = (function () {
     },
   }),
   Class(UI, "SavedDraftItem").inherits(Widget).includes(BubblingSupport)({
-    html: '<figure class="carousel-item draft-item deletable" style="margin-bottom: 6px; zoom: 1; opacity: 1;"><a class="thumb-link" data-href="{{ href }}" href="{{ href }}" target="_blank"><video data-src="" src="" style="display:none; width: 100%; position: absolute; margin-left: auto; margin-right: auto;" muted playsinline></video><div class="loading-overlay"><img class="loading-gif" src="/assets/loader-easing.gif" /></div><span class="badge badge-type__13"><img class="thumb-image" data-src="{{ previewImageURL }}" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;"/></span></a><div class="draft-item__trash delete hvr-grow"><button></button></div></figure>',
+    html: '<figure class="carousel-item draft-item deletable" style="margin-bottom: 6px; zoom: 1; opacity: 1;"><a class="thumb-link" data-href="{{ href }}" href="{{ href }}" target="_blank"><video data-src="" src="" style="display:none; width: 100%; position: absolute; margin-left: auto; margin-right: auto;" muted playsinline></video><div class="loading-overlay"><img class="loading-gif" src="./assets/loader-easing.gif" /></div><span class="badge badge-type__13"><img class="thumb-image" data-src="{{ previewImageURL }}" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;"/></span></a><div class="draft-item__trash delete hvr-grow"><button></button></div></figure>',
     prototype: {
       id: null,
       thumb: null,
